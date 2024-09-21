@@ -4,8 +4,8 @@
   "description": "All A4 Resume Templates",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/tailwind.css -o ./public/style.css",
-    "watch": "tailwindcss -i ./src/tailwind.css -o ./public/style.css --watch"
+    "build": "tailwindcss -i ./src/tailwind.css -o ./docs/style.css",
+    "watch": "tailwindcss -i ./src/tailwind.css -o ./docs/style.css --watch"
   },
   "repository": {
     "type": "git",
