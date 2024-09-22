@@ -30,6 +30,42 @@ a {
   text-decoration: none;
 }
 
+.cd-nugget-info {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  top: 0;
+  left: 0;
+}
+
+.cd-nugget-info a {
+  position: relative;
+  font-size: 14px;
+  color: #925398;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  transition: all .2s;
+}
+
+.no-touch .cd-nugget-info a:hover {
+  opacity: .8;
+}
+
+.cd-nugget-info span {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.cd-nugget-info span svg {
+  display: block;
+}
+
+.cd-nugget-info .cd-nugget-info-arrow {
+  fill: #925398;
+}
+
 /* -------------------------------- 
 
 Main Components 
